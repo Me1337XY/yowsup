@@ -17,18 +17,16 @@ class AndroidYowsupEnv(YowsupEnv):
         "YHNtYoIvt5R3X6YZylbPftF/8ayWTALBgcqhkjOOAQDBQADLwAwLAIUAKYCp0d6z4QQdyN74JDfQ2WCyi8CFDUM4CaNB+ceVXd" \
         "KtOrNTQcc0e+t"
 
-    _MD5_CLASSES = "/QhoCBMppKpKQumhTC8kcQ=="
+    _MD5_CLASSES = "9cGBR5d0y9dXWrZd30Yuow=="
     _KEY = "eQV5aq/Cg63Gsq1sshN9T3gh+UUp0wIw0xgHYT1bnCjEqOJQKCRrWxdAe2yvsDeCJL+Y4G3PRD2HUF7oUgiGo8vGlNJOaux26k+A2F3hj8A="
 
-_MD5_CLASSES = "ry9Xz6kVioQctwA3G9z62Q=="
-
-_VERSION = "2.12.556"
-_OS_NAME = "Android"
-_OS_VERSION = "4.3"
-_DEVICE_NAME = "armani"
-_MANUFACTURER = "Xiaomi"
-_BUILD_VERSION = "JLS36C"
-_AXOLOTL = True
+    _VERSION = "2.21.5"
+    _OS_NAME = "Android"
+    _OS_VERSION = "8.0.0"
+    _DEVICE_NAME = "star2lte"
+    _MANUFACTURER = "samsung"
+    _BUILD_VERSION = "star2ltexx-user 8.0.0 R16NW G965FXXU1ARCC release-keys"
+    _AXOLOTL = True
 
     def getVersion(self):
         return self.__class__._VERSION
